@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-primary: #5d12b3;
+	--color-secondary: #30475e;
+	--color-tertiary: #2f2f2f;
+	--color-quaternary: #fd9726;
+	--color-text-primary: #2f2f2f;
+	--color-text-secondary: #fff8f3;
+	--color-accent-primary: #03dac5;
+	--color-accent-secondary: #ff5a5f;
+	--color-greenish: #93f393;
+	font-size: 62.5%;
+}
+
+input,
+textarea,
+button {
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	color: var(--color-text-secondary);
+
+	font-family: "Roboto", sans-serif;
+	background-color: var(--color-tertiary);
+	font-size: 1.6rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-accent-primary);
+}
+
+a:hover {
+	text-decoration: underline;
+	transition: all 0.5s ease-out;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	gap: 10rem;
+	flex-wrap: wrap;
+}
+.flow-vertical {
+	flex-direction: column;
+}
+/* website styling */
+
+.header {
+	min-height: 5vh;
+	background: var(--color-primary);
+	padding: 2rem 1rem;
+	color: var(--color-text-secondary);
+}
+
+.main-body {
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.component-header {
+	margin: 2rem;
+}

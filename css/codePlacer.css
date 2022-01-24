@@ -1,0 +1,27 @@
+/* ---------------------- code-placer---------------- */
+
+.code-placer {
+	background-color: var(--color-secondary);
+	padding: 2rem;
+	border-radius: 1rem;
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.code-placer:hover {
+	box-shadow: 0 0rem 0.7rem var(--color-primary);
+}
+.code-placer h1 {
+	/* color: var(--color-text-primary); */
+	color: var(--color-text-secondary);
+}
+code {
+	margin: 1rem;
+	background: var(--color-tertiary);
+	color: var(--color-text-secondary);
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+}

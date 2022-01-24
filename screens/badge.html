@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>badges | Zoef's component library</title>
+		<link rel="stylesheet" href="../styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1>Zoef's Component Library</h1>
+		</header>
+		<div class="main-body">
+			<h1 class="component-header">Badges</h1>
+
+			<section>
+				<div class="code-placer">
+					<h1>Badge on the top right</h1>
+					<div class="badge-wrapper badge-wrapper-padding">
+						<p>This text has a badge on it</p>
+						<div class="badge badge-top-right">12+</div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper badge-wrapper-padding"&gt;<br />
+						&nbsp;&nbsp;&lt;p&gt;This text has a badge on it&lt;/p&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-top-right"&gt;12+&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="code-placer">
+					<h1>Badge on all side</h1>
+					<div class="badge-wrapper badge-wrapper-padding">
+						<p>This text has a badge on it</p>
+						<div class="badge badge-top-right">12+</div>
+						<div class="badge badge-bottom-right">13+</div>
+						<div class="badge badge-top-left">14+</div>
+						<div class="badge badge-bottom-left">15+</div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper badge-wrapper-padding"&gt;<br />
+						&nbsp;&nbsp;&lt;p&gt;This text has a badge on it&lt;/p&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-top-right"&gt;12+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-left"&gt;13+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-top-left"&gt;14+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-right"&gt;15+&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="code-placer">
+					<h1>Badge on icon</h1>
+					<div class="badge-wrapper badge-wrapper-padding">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							aria-hidden="true"
+							role="img"
+							class="iconify iconify--mdi"
+							width="32"
+							height="32"
+							preserveAspectRatio="xMidYMid meet"
+							viewBox="0 0 24 24"
+						>
+							<path d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z" fill="currentColor"></path>
+						</svg>
+						<div class="badge badge-top-right">12+</div>
+						<div class="badge badge-bottom-right">13+</div>
+						<div class="badge badge-top-left">14+</div>
+						<div class="badge badge-bottom-left">15+</div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper badge-wrapper-padding"&gt;<br />
+						&nbsp; &lt;svg&gt;&lt;/svg&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-top-right"&gt;12+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-right"&gt;13+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-top-left"&gt;14+&lt;/div&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-right"&gt;15+&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="code-placer">
+					<h1>Larger badge</h1>
+					<div class="badge-wrapper badge-wrapper-padding">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							aria-hidden="true"
+							role="img"
+							class="iconify iconify--mdi"
+							width="32"
+							height="32"
+							preserveAspectRatio="xMidYMid meet"
+							viewBox="0 0 24 24"
+						>
+							<path d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z" fill="currentColor"></path>
+						</svg>
+						<div class="badge badge-top-right badge-lg">12+</div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper badge-wrapper-padding"&gt;<br />
+						&nbsp; &lt;svg&gt;&lt;/svg&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-right badge-lg"&gt;12+&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="code-placer">
+					<h1>Badge on avatar</h1>
+					<div class="badge-wrapper">
+						<div class="avatar avatar-xlg">
+							<img src="https://picsum.photos/200/300" alt="lorem picsum" />
+						</div>
+						<div class="badge badge-top-right">12+</div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper"&gt;<br />
+						&nbsp;&nbsp;&lt;img class="avatar avatar-xlg" alt="" src=""/&gt;<br />
+
+						&nbsp;&nbsp;&lt;div class="badge badge-top-right "&gt;12+&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+
+				<div class="code-placer">
+					<h1>Badge on avatar without number</h1>
+					<div class="badge-wrapper">
+						<div class="avatar avatar-md">
+							<img src="https://picsum.photos/200/300" alt="lorem picsum" />
+						</div>
+						<div class="badge badge-bottom-right"></div>
+					</div>
+					<code>
+						&lt;div class="badge-wrapper"&gt;<br />
+						&nbsp;&nbsp;&lt;img class="avatar avatar-md" alt="" src=""/&gt;<br />
+						&nbsp;&nbsp;&lt;div class="badge badge-bottom-right "&gt;&lt;/div&gt;<br />
+						&lt;/div&gt;
+					</code>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

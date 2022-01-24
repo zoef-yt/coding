@@ -1,0 +1,31 @@
+/* ------------------ alert ------------------  */
+.alert {
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1rem;
+	width: 50ch;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 1.5rem;
+	margin: 1rem;
+}
+
+.alert-error {
+	background-color: var(--color-accent-secondary);
+}
+
+.alert-warning {
+	background-color: var(--color-quaternary);
+	color: var(--color-text-primary);
+}
+
+.alert-info {
+	background-color: var(--color-primary);
+}
+
+.alert-success {
+	background-color: var(--color-greenish);
+	color: var(--color-text-primary);
+}

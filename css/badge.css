@@ -1,0 +1,43 @@
+.badge-wrapper {
+	position: relative;
+	font-size: 1.5rem;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+.badge-wrapper-padding {
+	padding: 3rem;
+}
+.badge {
+	position: absolute;
+	display: flex;
+	font-size: 1rem;
+	padding: 0.2rem;
+	justify-content: center;
+	align-items: center;
+	min-width: 1.5rem;
+	aspect-ratio: 1;
+	background: var(--color-accent-secondary);
+	color: var(--color-text-secondary);
+	border-radius: 50%;
+}
+.badge-top-left {
+	top: 1.5rem;
+	left: 1.2rem;
+}
+.badge-top-right {
+	top: 1.5rem;
+	right: 1.2rem;
+}
+.badge-bottom-left {
+	bottom: 1.5rem;
+	left: 1.2rem;
+}
+.badge-bottom-right {
+	bottom: 1.5rem;
+	right: 1.2rem;
+}
+
+.badge-lg {
+	font-size: 1.5rem;
+}
